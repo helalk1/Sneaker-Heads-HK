@@ -1,4 +1,6 @@
 /* Write Your CSS Below 
+
+
 Colors: 
 - rgb(243, 183, 106)
 - yellow
@@ -27,3 +29,62 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+/* style.css */
+
+/* Set the background color and background image for the entire page */
+body {
+    background-color: yellow;
+    background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
+    background-size: 100%;
+    font-family: Copperplate, sans-serif;
+    color: red;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    color: darkblue;
+}
+
+#row1-section1 img,
+#row2-section-1 img {
+    height: 400px;
+    width: 600px;
+}
+
+p {
+    font-size: 1.5em;
+    color: blue;
+    text-align: center;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #6d00fb;
+    text-shadow: 2px 2px #dbff39;
+}
+
+#row1-section1,
+#row2-section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.row img,
+.row p {
+    width: 30%;
+    margin: 10px;
+}
